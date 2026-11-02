@@ -1,0 +1,18 @@
+[package]
+name = "webscrapy"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["json"] }
+urlencoding = "2.1"
+html2md = "0.2"
+async-trait = "0.1"
+mcp-core = "0.1" # Standard crate handling official Model Context Protocol mappings
+
+
+
